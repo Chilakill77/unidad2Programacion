@@ -18,10 +18,10 @@ print (time)
 formattedTime= (json_data ['route']['legs']['formattedTime'])
 print (formattedTime)
 #Paso DOS
-print("URL: " + (url))
+#print("URL: " + (url))
 
-json_data = requests.get(url).json()
-json_status = json_data["info"]["statuscode"]
+#json_data = requests.get(url).json()
+#json_status = json_data["info"]["statuscode"]
 
-if json_status == 0:
-    print("API Status: " + str(json_status) + " = A successful route call.\n")
+#if json_status == 0:
+#    print("API Status: " + str(json_status) + " = A successful route call.\n")
